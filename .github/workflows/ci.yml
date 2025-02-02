@@ -22,5 +22,4 @@ jobs:
         pip install pytest pandas
         python setup.py install
     - name: Run tests
-      uses: coactions/setup-xvfb@v1
       run: pytest
