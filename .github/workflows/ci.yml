@@ -2,12 +2,12 @@ name: CI
 
 on: 
   push:
+    - develop
   pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/develop')
 
     strategy:
       matrix:
