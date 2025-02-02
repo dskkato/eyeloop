@@ -1,3 +1,7 @@
+**Forked from [simonarvin/eyeloop](https://github.com/simonarvin/eyeloop)**. Upstream repository is now archived on Apr 15 2024.
+
+------------------------------------------------------------------------
+
 # EyeLoop [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/simonarvin/eyeloop/issues) [![Build Status](https://travis-ci.com/simonarvin/eyeloop.svg?branch=master)](https://travis-ci.com/simonarvin/eyeloop) ![version](https://img.shields.io/badge/version-0.35--beta-brightgreen) ![lab](https://img.shields.io/badge/yonehara-lab-blue) ![beta](https://img.shields.io/badge/-beta-orange)
 
 <p align="center">
@@ -206,7 +210,7 @@ The default graphical user interface in EyeLoop is [*minimum-gui*.](https://gith
 
 Install testing requirements by running in a terminal:
 
-`pip install -r requirements_testing.txt`
+`pip install -r requirements-dev.txt`
 
 Then run tox: `tox`
 
